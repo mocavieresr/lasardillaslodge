@@ -1,0 +1,71 @@
+.lodge-container--paragraph {
+    display:flex;
+    width: 800px;
+    margin: 0 auto;
+}
+.lodge-container--paragraph p {
+    width: 50%;
+    padding: 15px;
+    font-size: 2rem;
+}
+
+.patagonia-container--paragraph {
+    width: 700px;
+    margin: 0 auto;   
+    font-size: 2rem;
+}
+
+.main-lodge-container2--subtitle {
+    width: 700px;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+.main-lodge-container2--paragraph {
+    width: 50%;
+    padding: 25px;
+}
+.main-lodge-container2--paragraph p {
+    font-size: 2rem;
+}
+.main-lodge-container2--logo {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* ==================== Page Lodge ==================== */
+.page-lodge-container {
+    width: 70%;
+    margin:0 auto;
+}
+.page-lodge-container--paragraph-images {
+    display: flex;
+}
+.page-lodge-container--paragraph {
+    width: 50%;
+    padding-right: 25px;
+}
+.page-lodge-container--images {
+    display:inline;
+    width: 50%;
+}
+.page-lodge-container--images img {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+}
+/* ==================== End Page Lodge ==================== */
+/* ==================== Page Patagonia ==================== */
+.page-patagonia-container2 {
+    height: auto;
+    background-image: url("../assets/imgs/cerrocastillo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.page-patagonia-container--all {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255,0.2);
+    height: auto;
+}
+/* ==================== End Page Patagonia ==================== */

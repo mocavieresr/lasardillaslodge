@@ -1,0 +1,27 @@
+/* ============ desktop view ============ */
+/*@media all and (min-width: 992px) {*/
+.navbar .nav-item .dropdown-menu{ 
+    display: none; 
+}
+/*.navbar .nav-item:hover .nav-link{   }*/
+.navbar .nav-item:hover .dropdown-menu{ 
+    display: block; 
+}
+.navbar .nav-item .dropdown-menu{ 
+    margin-top:0; 
+}
+/*}*/	
+/* ============ desktop view .end// ============ */
+
+/* ==================== Page Lodge ==================== */
+.page-lodge-container {
+    width: 60%;
+}
+.page-lodge-container--images {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.page-lodge-container--images img {
+    height: 350px;
+}
+/* ==================== End Page Lodge ==================== */
