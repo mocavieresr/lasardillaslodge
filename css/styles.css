@@ -39,8 +39,8 @@ body {
     max-height: 65px;
 }
 .navbar-brand {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    /*padding-top: 5px;
+    padding-bottom: 5px;*/
 }
 .nav-item a {
     font-size: 1.4rem;
@@ -50,24 +50,7 @@ body {
     padding-bottom:10px;
     border-bottom: 1px solid #EFEFEF;
 }
-.navbar-nav .nav-item:first-child a {
-    border-top: 1px solid #EFEFEF;
-}
-.nav-item a:before {
-    content: '•';
-    padding-left: 15px;
-    padding-right: 5px;
-}
-.dropdown-menu li .dropdown-item {
-    margin-left: 0px;
-    padding-left: 0px;
-}
-.dropdown-item {
-    width: auto;
-}
-.dropdown-menu {
-    margin-left: 10px;
-}
+
 /* ==================== End Navbar ==================== */
 /* ==================== Slider ==================== */
 .carousel-item img{
