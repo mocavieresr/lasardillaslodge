@@ -50,7 +50,18 @@ body {
     padding-bottom:10px;
     border-bottom: 1px solid #EFEFEF;
 }
-
+.navbar .nav-item .dropdown-menu { 
+    display: block;
+    background-color: var(--dark-brown); 
+}
+.navbar .nav-item .dropdown-menu li a{ 
+    margin-left: 20px;
+    color: #EFEFEF;
+}
+.navbar .nav-item .dropdown-menu li a:hover{ 
+    background-color: var(--dark-red);
+    color: withe;
+}
 /* ==================== End Navbar ==================== */
 /* ==================== Slider ==================== */
 .carousel-item img{
@@ -63,14 +74,16 @@ body {
 .carousel-caption {
     background-color: rgba(38, 19, 11, 0.45);
     border-radius: 15px;
+    padding: 15px;
 }
 .carousel-caption h5 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'MarketWeb';
     text-shadow: 4px 2px 4px #000000;
 }
 .carousel-caption p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    text-shadow: 4px 2px 4px #000000;
 }
 /* ==================== End Slider ==================== */
 /* ==================== Section The Lodge ==================== */
