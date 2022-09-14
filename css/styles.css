@@ -15,8 +15,11 @@
     --soft-grey: rgb(136, 136, 136);
     --dark-red: #731719;
     --yellow: #f1c40f;
-    --dark-brown: #26130B;
+    /*--dark-brown: #26130B;*/
+    --dark-brown: #2B8F99;
+    --green: #688E61;
     --grey: rgb(99, 99, 99);
+    --green-yellow: #B2AE24;
 }
 * {
     box-sizing: border-box;
@@ -59,7 +62,7 @@ body {
     color: #EFEFEF;
 }
 .navbar .nav-item .dropdown-menu li a:hover{ 
-    background-color: var(--dark-red);
+    background-color: var(--green);
     color: withe;
 }
 /* ==================== End Navbar ==================== */
@@ -109,8 +112,9 @@ body {
     text-align: center;
     font-size: 5rem;
     font-weight: 400;
-    color: var(--dark-brown);
+    color: var(--green-yellow);
     font-family: 'MarketWeb';
+    text-shadow: 1px 0px 1px #FFFFFF;
 }
 .lodge-container--logo {
     padding-top: 50px;
@@ -179,14 +183,16 @@ body {
     font-size: 2rem;
     font-family: 'MarketWeb';
 }
-
 .card-title a {
-    color: var(--dark-brown);
+    color: var(--green-yellow);
     text-decoration: none !important;
+    display: flex;
+    justify-content: center;
 }
 
 .card-read-more {
     border-top: 1px solid #D4D4D4;
+    display: grid;
 }
 
 .card-read-more a {
@@ -194,6 +200,12 @@ body {
     padding: 10px;
     font-size: 1.6rem;
     text-transform: uppercase;
+}
+.multiaventura-container--vermas {
+    color: #FFFFFF;
+    background-color: var(--dark-brown);
+    border-color: var(--dark-brown);
+    font-size: 1.8rem;
 }
 /* ==================== End Card ==================== */
 /* ==================== Section Lodge ==================== */
@@ -277,7 +289,7 @@ body {
     font-size: 5rem;
     font-family: 'MarketWeb';
     text-align: center;
-    color: var(--dark-brown);
+    color: var(--green-yellow);
     text-shadow: 1px 0px 1px #FFFFFF;
     grid-column: 3 / 9;
     grid-row: 1 / 2;
@@ -361,7 +373,7 @@ body {
     line-height: 5rem;
     font-family: 'MarketWeb';
     text-align: center;
-    color: var(--dark-brown);
+    color: var(--green-yellow);
     text-shadow: 1px 0px 1px #FFFFFF;
     padding-bottom: 25px;
 }
@@ -370,7 +382,7 @@ body {
     line-height: 2.5rem;
     font-family: 'MarketWeb';
     text-align: center;
-    color: var(--dark-brown);
+    color: var(--green-yellow);
     text-shadow: 1px 0px 1px #FFFFFF;
 }
 .patagonia-container--paragraph {     
@@ -554,7 +566,7 @@ body {
     padding: 15px;
     margin: 5px 20px 5px 0px;
     border-radius: 25px;
-    background-color: var(--dark-red);
+    background-color: var(--green);
     color: white;
     /*text-indent: -9000px;*/
 }
@@ -568,7 +580,7 @@ body {
     font-size: 1.6rem;
     display: block;
     margin: 0 auto;
-    background-color: var(--dark-red);
+    background-color: var(--green);
     color: white;
 }
 .quotes {
@@ -603,7 +615,7 @@ body {
     color: var(--soft-grey);
 }
 .main-fly-fishing p span {
-    color: var(--dark-red);
+    color: var(--green);
 }
 .main-fly-fishing--gallery {    
     display: flex;
