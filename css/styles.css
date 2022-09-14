@@ -46,12 +46,13 @@ body {
     padding-bottom: 5px;*/
 }
 .nav-item a {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     margin-left: 10px;
     padding-top: 10px;
     padding-bottom:10px;
     border-bottom: 1px solid #EFEFEF;
+    font-weight: bolder;
 }
 .navbar .nav-item .dropdown-menu { 
     display: block;
@@ -87,6 +88,10 @@ body {
 .carousel-caption p {
     font-size: 1.8rem;
     text-shadow: 4px 2px 4px #000000;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 5rem;
+    height: 5rem;
 }
 /* ==================== End Slider ==================== */
 /* ==================== Section The Lodge ==================== */
@@ -362,11 +367,11 @@ body {
     height: auto;
 }
 .patagonia-container--logo {
-    width: 300px;
+    width: 100px;
     margin: 0 auto;
     display: block;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
 .patagonia-container--title {
     font-size: 5rem;
@@ -405,7 +410,7 @@ body {
     border-color: var(--dark-brown);
     font-size: 1.8rem;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 /* ==================== End Section Patagonia ==================== */
 /* ==================== Social ==================== */

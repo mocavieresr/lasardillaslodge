@@ -112,3 +112,8 @@
     width: 50%;
     margin: 0 auto;
 }
+
+.patagonia-container--logo {
+    margin-right: 100px;
+    margin-left: auto;
+}
