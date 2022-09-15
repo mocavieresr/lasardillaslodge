@@ -1,0 +1,48 @@
+.navbar .nav-item .dropdown-menu{ display: none; }
+.navbar .nav-item:hover .nav-link{   }
+.navbar .nav-item:hover .dropdown-menu{ display: block; }
+.navbar .nav-item .dropdown-menu{ margin-top:0; }
+.navbar .nav-item .dropdown-menu li a{ 
+    margin-left: 0px;
+    color: #EFEFEF;
+}
+
+.carousel-caption h5 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.patagonia-container--logo {
+    margin-right: 100px;
+    margin-left: auto;
+}
+/* ==================== Section Nuestros Servicios ==================== */
+.grilla .contenedor {
+    width: 50%;
+}
+/* ==================== End Section Nuestros Servicios ==================== */
+/* ==================== Section Lodge ==================== */
+.lodge {
+    height: 775px;
+}
+.lodge img {
+    padding-top: 50px;
+    width: 75%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+.lodge .titulo {
+    text-align: left;
+}
+.lodge .subtitulo {
+    text-align: left;
+}
+.lodge p {
+    text-align: left;
+    margin: 0;
+}
+.lodge .vermas {
+    margin-bottom: 50px;
+}
+/* ==================== End Section Lodge ==================== */
