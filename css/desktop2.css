@@ -25,6 +25,9 @@
     display: flex;
     margin: 0 auto;
 }
+.lodge .contenedor {
+    padding-top:50px;
+}
 .lodge .titulo {
     text-align: left;
 }
