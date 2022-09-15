@@ -45,3 +45,10 @@
     width: 35%;
 }
 /* ==================== End Section Nuestros Servicios ==================== */
+/* ==================== Section Multi Aventura ==================== */
+.multiaventura div {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+/* ==================== End Section Multi Aventura ==================== */
