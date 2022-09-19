@@ -413,3 +413,61 @@ body {
     margin-top: 35px;
 }
 /* ==================== End Page Lodge ==================== */
+/* ==================== Page Trekking ==================== */
+.page-trekking--fondo {
+    margin-top: 70px;
+    height: 200px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background-image: url("../assets/imgs/3.Banner_Nuestrosservicios/1.jpg");
+}
+.page-trekking--fondo h3 {
+    color: white;
+    text-transform: uppercase;
+}
+.page-trekking--fondo h3:first-child {
+    font-size: 2.3rem;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+.page-trekking--fondo h3:last-child {
+    font-size: 2rem;
+}
+.page-trekking--fondo h3:last-child span {
+    color:rgb(209, 198, 198);
+} 
+.page-trekking--foto {
+    width: 100%;
+}
+.page-trekking--foto img {
+    padding-top: 15px;
+    width: 95%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+.page-trekking-container .page-trekking--info .subtitulo {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.page-trekking-container .page-trekking--info .subtitulo div{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--green-yellow);
+    display: inline;
+    width: auto;
+    font-size: 2.8rem;
+    border-top: 2px solid var(--green-yellow);
+    border-bottom: 2px solid var(--green-yellow);
+}
+.page-trekking--info h4 {
+    font-size: 2.3rem;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.page-trekking--info p {
+    font-size: 1.8rem;
+}
+/* ==================== End Page Trekking ==================== */
