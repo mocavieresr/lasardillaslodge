@@ -17,8 +17,13 @@
     margin-left: auto;
 }
 /* ==================== Section Nuestros Servicios ==================== */
+.grilla {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+}
 .grilla .contenedor {
-    width: 50%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 /* ==================== End Section Nuestros Servicios ==================== */
 /* ==================== Section Lodge ==================== */
@@ -44,5 +49,11 @@
 }
 .lodge .vermas {
     margin-bottom: 50px;
+}
+.lodge .contenedor .logo img{
+    width: 100px;
+    padding-top: 15px;
+    margin: 0auto;
+    padding-bottom: 0px;
 }
 /* ==================== End Section Lodge ==================== */
