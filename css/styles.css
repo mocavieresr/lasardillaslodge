@@ -41,10 +41,6 @@ body {
 .navbar-logo {
     max-height: 65px;
 }
-.navbar-brand {
-    /*padding-top: 5px;
-    padding-bottom: 5px;*/
-}
 .nav-item a {
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -94,65 +90,161 @@ body {
     height: 5rem;
 }
 /* ==================== End Slider ==================== */
-/* ==================== Section The Lodge ==================== */
-.lodge-container {
-    width: 100%;
-    height: auto;
-    background-image: url("../assets/imgs/1.Banner_Lodge/3.jpg");
-    background-repeat: no-repeat;
+/* ==================== Comun ==================== */
+.vermas {
+    padding-top: 25px;
+}
+.vermas a {
+    text-decoration: none;
+    color: white;
+    line-height: 1.8rem;
+    font-size: 1.8rem;
+    padding: 15px 50px 15px 50px;
+    background-color: var(--green);
+}
+/* ==================== End Comun ==================== */
+/* ==================== Section Nuestros Servicios ==================== */
+.nuestros-servicios {
+    height: 500px;
+    background-image: url("../assets/imgs/3.Banner_Nuestrosservicios/1.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.lodge-container--all {
-    background-color: rgba(255, 255, 255,0.4);
+.nuestros-servicios--all {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+.grilla {
+    padding-left: 10px;
+    height: 100%;
+    color: white;
+    font-size: 1.8rem;
+}
+.grilla .titulo {
+    padding-top: 100px;
+    font-size: 2.8rem;
+    text-shadow: 1px 0px 1px black;
+}
+.grilla .parrafo {
+    padding-top: 15px;
+    font-size: 2.8rem;
+    text-shadow: 1px 0px 1px black;
+}
+.grilla .contenedor-ardillas {
+    display: flex;
+}
+.grilla .contenedor-ardillas .ardillas {
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+}
+.grilla .linea {
+    width: 40px;
+    height: 3px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: var(--green-yellow);
+}
+/* ==================== End Section Nuestros Servicios ==================== */
+/* ==================== Section Alrededores ==================== */
+.alrededores {
+    height: 500px;
+    background-image: url("../assets/imgs/4.Banner_Losalrededores/3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.alrededores--all {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+/* ==================== End Section Alrededores ==================== */
+/* ==================== Section Lodge ==================== */
+.lodge {
     height: auto;
+    padding-left: 10px;
 }
-.lodge-container--title {
-    width: 280px;
+.lodge img {
+    padding-top: 15px;
+    width: 95%;
+    height: auto;
+    display: flex;
     margin: 0 auto;
+}
+.lodge .titulo {
     padding-top: 50px;
-    padding-bottom: 30px;
-    background-image: url("../assets/imgs/divider.png");
-    background-repeat: repeat-x;
-    background-position: top center;
+    padding-bottom: 20px;
+    font-size: 3rem;
     text-align: center;
-    font-size: 5rem;
-    font-weight: 400;
-    color: var(--green-yellow);
-    font-family: 'MarketWeb';
-    text-shadow: 1px 0px 1px #FFFFFF;
+    font-weight: bolder;
 }
-.lodge-container--logo {
-    padding-top: 50px;
-    width: 250px;
+.lodge .subtitulo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.lodge .subtitulo div {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--green-yellow);
+    display: inline;
+    width: auto;
+    font-size: 2.8rem;
+    border-top: 2px solid var(--green-yellow);
+    border-bottom: 2px solid var(--green-yellow);
+}
+.lodge p {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 95%;
+    display: flex;
     margin: 0 auto;
-    display: block;
+    color:rgb(99, 99, 99);
+}
+.lodge .contenedor .logo img{
+    width: 150px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.lodge .vermas {
+    margin-bottom: 25px;
+}
+/* ==================== End Section Lodge ==================== */
+/* ==================== Section Multi Aventura ==================== */
+.multiaventura .subtitulo {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.multiaventura .subtitulo div  {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--green-yellow);
+    display: inline;
+    width: auto;
+    font-size: 2.8rem;
+    border-top: 2px solid var(--green-yellow);
+    border-bottom: 2px solid var(--green-yellow);
+}
+.multiaventura p {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    color:rgb(99, 99, 99);
     padding-bottom: 25px;
 }
-.lodge-container--paragraph {     
-    height: auto;
-    padding: 15px;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #000000;
-    text-shadow: 1px 1px 1px #FFFFFF;
-    text-align: justify;
-}
-.lodge-container--a {
-    display: block;
-    text-align: center;
-    margin-top: 35px;
-    padding-bottom: 50px;
-}
-/* ==================== End Section The Lodge ==================== */
+/* ==================== End Section Multi Aventura ==================== */
 /* ==================== Card ==================== */
 .card {
-    display: block;
-    margin-bottom: 20px;
-    line-height: 1.42857143;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
     background-color: #fff;
-    border-radius: 2px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     transition: box-shadow .25s;
+    margin-bottom: 20px;
 }
 
 .card:hover {
@@ -161,7 +253,7 @@ body {
 
 .img-card {
     width: 100%;
-    height: 200px;
+    height: 245px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     display: block;
@@ -170,7 +262,7 @@ body {
 
 .img-card img {
     width: 100%;
-    height: 200px;
+    height: 245px;
     object-fit: cover;
     transition: all .25s ease;
 }
@@ -180,26 +272,29 @@ body {
     text-align: left;
 }
 .card-content p {
+    text-align: left;
     font-size: 1.6rem;
+    margin: 0;
 }
 .card-title {
     margin-top: 0px;
     font-weight: 700;
     font-size: 2rem;
-    font-family: 'MarketWeb';
 }
 .card-title a {
+    padding-top: 25px;
     color: var(--green-yellow);
     text-decoration: none !important;
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
 }
-
 .card-read-more {
     border-top: 1px solid #D4D4D4;
     display: grid;
 }
-
+.card-read-more:hover a {
+    color:rgb(99, 99, 99);
+}
 .card-read-more a {
     text-decoration: none !important;
     padding: 10px;
@@ -208,217 +303,17 @@ body {
 }
 .multiaventura-container--vermas {
     color: #FFFFFF;
-    background-color: var(--dark-brown);
-    border-color: var(--dark-brown);
+    background-color: var(--green);
+    border-color: var(--green);
     font-size: 1.8rem;
 }
 /* ==================== End Card ==================== */
-/* ==================== Section Lodge ==================== */
-.main-lodge-container2{
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(90deg, #999999 0%, #D9D9D9 98.21%);
-}
-.main-lodge-container2--image {
-    height: 100vh;
-    background-image: url("../assets/imgs/vistalago.jpg");
-    background-size: cover;
-    background-position: 0px calc(100vh / 2);
-    background-repeat: no-repeat;
-}
-.main-lodge-container2--bloque {
-    width: 100%;
-    height: 400px;
-}
-.main-lodge-container2--title {
-    font-size: 5rem;
-    font-family: 'MarketWeb';
-    text-align: center;
-    color: var(--dark-brown);
-    text-shadow: 1px 0px 1px #FFFFFF;
-    padding-top: 25px;
-}
-
-.main-lodge-container2--subtitle {
-    padding: 15px;
-    font-size: 1.6rem;
-    margin-left: auto;
-    margin-right: 0;
-    color: var(--grey);
-    text-align: justify;
-}
-.main-lodge-container2--logo-paragraph{
-    display: flex;
-}
-.main-lodge-container2--logo {
-    width: 40%;
-    height: 80px;
-    align-self: center;
-}
-.main-lodge-container2--paragraph {     
-    width: 60%;
-    height: auto;
-    padding: 15px;
-    font-size: 1.6rem;
-    margin-left: auto;
-    margin-right: 0;
-    background-color: var(--dark-brown);
-    color: white;
-    text-align: justify;
-}
-/*.main-lodge-container2--background {
-    width: 100%;
-    height: calc(100vh / 2);
-    background-image: url("../assets/imgs/vistalago.jpg");
-    background-size: cover;
-    background-position: center;
-}*/
-.main-lodge-container2--a {
-    display: block;
-    text-align: center;
-    padding-top: 300px;
-    
-}
-.main-lodge-container2--vermas {
-    color: #FFFFFF;
-    background-color: var(--dark-brown);
-    border-color: var(--dark-brown);
-    font-size: 1.8rem;
-}
-.main-lodge-container3--bloque {
-    height: 100vh;
-    display: grid;
-    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
-}
-.main-lodge-container3--title {
-    font-size: 5rem;
-    font-family: 'MarketWeb';
-    text-align: center;
-    color: var(--green-yellow);
-    text-shadow: 1px 0px 1px #FFFFFF;
-    grid-column: 3 / 9;
-    grid-row: 1 / 2;
-    align-self: center;
-}
-.main-lodge-container3--subtitle {
-    padding: 10px;
-    font-size: 1.5rem;
-    margin-left: auto;
-    margin-right: 0;
-    color: var(--grey);
-    text-align: justify;
-    grid-column: 1 / 11;
-    grid-row: 2 / 4;
-    align-self: center;
-}
-.main-lodge-container3--logo {
-    width: 80%;
-    justify-self: center;
-    grid-column: 1 / 4;
-    grid-row: 5 / 6;
-}
-.main-lodge-container3--paragraph {
-    background-color: var(--dark-brown);
-    color: white;
-    text-align: justify;
-    grid-column: 4 / 11;
-    grid-row: 4 / 8;
-    padding: 10px;
-    font-size: 1.6rem;
-    display:grid;
-    align-items: center;
-    justify-items: center;
-}
-.main-lodge-container3--paragraph p:first-child {
-    align-self: end;
-}
-.main-lodge-container3--paragraph p:last-child {
-    align-self: start;
-}
-.main-lodge-container3--a {
-    display: block;
-    text-align: center;
-    grid-column: 6 / 9; 
-    grid-row: 8 / 9;   
-    align-self: center;
-}
-/* ==================== End Section Lodge ==================== */
-/* ==================== Section Patagonia ==================== */
-.patagonia-container {
-    width: 100%;
-    height: auto;
-    /*background: linear-gradient(90deg, #623fff 0%, #D9D9D9 98.21%);*/
-    background-image: url("../assets/imgs/vistalago2.jpg");
-    /*background-attachment: fixed;*/
-    background-size: cover;
-    background-position: center;
-}
-.patagonia-container2 {
-    width: 100%;
-    height: auto;
-    /*background: linear-gradient(90deg, #623fff 0%, #D9D9D9 98.21%);*/
-    background-image: url("../assets/imgs/cerrocastillo.jpg");
-    /*background-attachment: fixed;*/
-    background-size: cover;
-    background-position: center;
-}
-.patagonia-container--all {
-    background-color: rgba(255, 255, 255,0.2);
-    height: auto;
-}
-.patagonia-container--logo {
-    width: 100px;
-    margin: 0 auto;
-    display: block;
-    padding-top: 100px;
-    padding-bottom: 30px;
-}
-.patagonia-container--title {
-    font-size: 5rem;
-    line-height: 5rem;
-    font-family: 'MarketWeb';
-    text-align: center;
-    color: var(--green-yellow);
-    text-shadow: 1px 0px 1px #FFFFFF;
-    padding-bottom: 25px;
-}
-.patagonia-container--subtitle {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    font-family: 'MarketWeb';
-    text-align: center;
-    color: var(--green-yellow);
-    text-shadow: 1px 0px 1px #FFFFFF;
-}
-.patagonia-container--paragraph {     
-    height: auto;
-    padding: 15px;
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: #FFFFFF;
-    text-shadow: 1px 0px 1px #000000;
-    text-align: justify;
-}
-.patagonia-container--a {
-    display: block;
-    text-align: center;
-    margin-top: 35px;
-}
-.patagonia-container--vermas {
-    color: #FFFFFF;
-    background-color: var(--dark-brown);
-    border-color: var(--dark-brown);
-    font-size: 1.8rem;
-    margin: 0 auto;
-    margin-bottom: 150px;
-}
-/* ==================== End Section Patagonia ==================== */
 /* ==================== Social ==================== */
 .main-social {
     width: 100%;
-    height: 700px;
+    height: 800px;
     padding-top: 100px;
-    background-image: url("../assets/imgs/atardecer.JPG");
+    background-image: url("../assets/imgs/terrazalago.JPG");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -518,121 +413,3 @@ body {
     margin-top: 35px;
 }
 /* ==================== End Page Lodge ==================== */
-/* ==================== Page Patagonia ==================== */
-.page-patagonia-container2 {
-    height: auto;
-    background-image: url("../assets/imgs/cerrocastillo.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.page-patagonia-container--all {
-    width: 100%;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255,0.2);
-}
-/* ==================== End Page Patagonia ==================== */
-/* ==================== Page Que Ofrecemos ==================== */
-
-/* ==================== End Page Que Ofrecemos ==================== */
-
-
-
-
-
-.main-welcome-container, .main-fly-fishing, .main-social {
-    width: 100%;
-    height: 100%;
-    padding-top: 50px;
-}
-.main-welcome-container--title, .main-fly-fishing--title {
-    width: 280px;
-    margin: 0 auto;
-    padding-top: 20px;
-    background-image: url("../assets/imgs/divider.png");
-    background-repeat: repeat-x;
-    background-position: top center;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 400;
-}
-
-.main-welcome-container--paragraph p {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 1.6rem;
-    line-height: 2.2rem;
-    font-weight: 400;
-    padding-bottom: 40px;
-    color: var(--soft-grey);
-}
-.main-welcome-container--paragraph p::first-letter {
-    float:left;
-    font-size: 2.8rem;
-    padding: 15px;
-    margin: 5px 20px 5px 0px;
-    border-radius: 25px;
-    background-color: var(--green);
-    color: white;
-    /*text-indent: -9000px;*/
-}
-.main-welcome-container--paragraph .primera-letra::first-letter {
-    padding-top: 13px;
-    padding-bottom: 13px;
-}
-.main-welcome-container--button {
-    border: 0;
-    padding: 5px 10px 5px 10px;
-    font-size: 1.6rem;
-    display: block;
-    margin: 0 auto;
-    background-color: var(--green);
-    color: white;
-}
-.quotes {
-    width: 100%;
-    height: 550px;
-    margin-top: 50px;
-    background-image: url(../assets/imgs/pescando1.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-}
-.quotes p {
-    width: 70%;
-    margin: 0 auto;
-    color: white;
-    font-size: 3rem;
-    text-align: center;
-    font-weight: 400;
-    text-shadow: 2px 2px 5px black;
-}
-.main-fly-fishing p {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 1.6rem;
-    line-height: 2.2rem;
-    font-weight: 400;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    text-align: center;
-    color: var(--soft-grey);
-}
-.main-fly-fishing p span {
-    color: var(--green);
-}
-.main-fly-fishing--gallery {    
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: 0 auto;
-    gap: 10px;
-}
-.main-fly-fishing--gallery a {
-    width: calc(50% - 5px);
-}
-.main-fly-fishing--gallery a img{
-    width: 100%;
-    height: 130px;
-}
