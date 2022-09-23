@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -67,49 +70,19 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="./assets/imgs/lodgelago.JPG" class="d-block w-100" alt="Casa principal, vista al lago.">
-                        <a href="./lodge.html">
-                            <div class="carousel-caption d-md-block">
-                                <h5>Las Ardillas Lodge</h5>
-                                <p>Las Ardillas Lodge es un refugio de aventura ubicado en las cercanías de Villa Cerro Castillo, a tan solo una hora y media del aeropuerto de Balmaceda...</p>
-                            </div>
-                        </a>
+                        <img src="./assets/imgs/1.Banner_Lodge/5.jpg" class="d-block w-100" alt="Panorámica lago Las Ardillas.">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="./assets/imgs/lagoaerea.JPG" class="d-block w-100" alt="Vista area del lago.">
-                        <a href="./patagonia.html">
-                            <div class="carousel-caption d-md-block">
-                                <h5>Los Alrededores, Aventura y naturaleza</h5>
-                                <p>En Las Ardillas Lodge tenemos diversas actividades outdoors para ofrecer...</p>
-                            </div>
-                        </a>
+                        <img src="./assets/imgs/1.Banner_Lodge/2.jpg" class="d-block w-100" alt="El Lodge junto al lago.">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="./assets/imgs/terrazalago.JPG" class="d-block w-100" alt="Vista al lago desde la terraza.">
-                        <a href="./nuestrosservicios.html">
-                            <div class="carousel-caption d-md-block">
-                                <h5>Nuestros Servicios</h5>
-                                <p>En Las Ardillas Lodge tenemos diversas actividades outdoor para ofrecer. El estar insertos en la Patagonia chilena nos permite brindar una perfecta experiencia entre naturaleza...</p>
-                            </div>
-                        </a>
+                        <img src="./assets/imgs/1.Banner_Lodge/3.jpg" class="d-block w-100" alt="Vista desde el lodge hacia lago Las Ardillas.">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="./assets/imgs/lagoaerea2.JPG" class="d-block w-100" alt="Vista area del lago.">
-                        <a href="./multiaventura.html">
-                            <div class="carousel-caption d-md-block">
-                                <h5>Multiavenura</h5>
-                                <p>Trekking, Kayak, Tour de pinturas rupestres, Cabalgata, Iniciación en la pesca y Tour a las Capilals de mármol, Puerto Tranquilo...</p>
-                            </div>
-                        </a>
+                        <img src="./assets/imgs/1.Banner_Lodge/4.jpg" class="d-block w-100" alt="Interior living comedor.">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="./assets/imgs/carretera.jpg" class="d-block w-100" alt="Vista a la carretera.">
-                        <a href="">
-                            <div class="carousel-caption d-md-block">
-                                <h5>Contacto</h5>
-                                <p></p>
-                            </div>
-                        </a>
+                        <img src="./assets/imgs/1.Banner_Lodge/1.jpg" class="d-block w-100" alt="Vista Cerro Castillo.">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
@@ -124,11 +97,21 @@
         </section>
         <section id="lodge" class="container lodge">
             <div>
-                <img src="./assets/imgs/1.Banner_Lodge/2.jpg" alt="">
+                <a data-bs-toggle="modal" data-bs-target="#imageModal1" href="#"><img src="./assets/imgs/1.Banner_Lodge/2.jpg" alt=""></a>
             </div>
             <div class="contenedor">
                 <div class="logo">
                     <img src="./assets/imgs/Negro1.png" alt="Logo Las Ardillas Lodge en color negro fondo transaparente.">
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img id="imagenIndex" class="imagenIndex" src="./assets/imgs/1.Banner_Lodge/2.jpg" alt="">            
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!--div class="titulo">Las Ardillas</div-->
                 <div class="subtitulo">
@@ -138,7 +121,7 @@
                     Las Ardillas Lodge es un refugio de aventura ubicado en las cercanías de Villa Cerro Castillo. Encontrándose en una ubicación privilegiada, rodeado de naturaleza y a orillas del lago Las Ardillas.
                 </p>
                 <div class="vermas">
-                    <a href="./lodge.html">Ver Las Ardillas</a>
+                    <a href="./lodge.html">Leer Más...</a>
                 </div>
             </div>
         </section>
@@ -146,14 +129,16 @@
             <div class="nuestros-servicios--all">
                 <div class="container grilla">
                     <div class="contenedor">
-                        <div class="titulo">Nuestros Servicios</div>
-                        <div class="parrafo">Las actividades y paseos pueden ser definidos una vez realizada la reserva...</div>
+                        <div class="subtitulo">
+                            <div>Servicios</div>
+                        </div>
+                        <div class="parrafo">Ofrecemos Programas Multiaventura de modalidad guiada o autoguiado.</div>
                         <div class="contenedor-ardillas">
                             <div class="linea"></div> 
                             <div class="ardillas">Las Ardillas Lodge</div>
                         </div>
                         <div class="vermas">
-                            <a href="./nuestrosservicios.html">Ver Nuestros Servicios</a>
+                            <a href="./nuestrosservicios.html">Leer Más...</a>
                         </div>
                     </div>
                 </div>
@@ -174,7 +159,7 @@
                         </a>
                         <div class="card-content">
                             <h4 class="card-title">
-                                <a href="./trekking.html"> Día de trekking</a>
+                                <a href="./trekking.html">Trekking</a>
                             </h4>
                             <p class="">
                                 El senderismo es una manera maravillosa de descubrir...
@@ -194,7 +179,7 @@
                         </a>
                         <div class="card-content">
                             <h4 class="card-title">
-                                <a href="./kayak.html">Día de Kayak</a>
+                                <a href="./kayak.html">Kayak</a>
                             </h4>
                             <p class="">
                                 Para esta actividad tenemos dos alternativas de kayaks ...
@@ -214,7 +199,7 @@
                         </a>
                         <div class="card-content">
                             <h4 class="card-title">
-                                <a href="./tourpinturas.html">Día de tour de pinturas rupestres</a>
+                                <a href="./tourpinturas.html">Tour de pinturas rupestres</a>
                             </h4>
                             <p class="">
                                 Un tour super entretenido...
@@ -234,7 +219,7 @@
                         </a>
                         <div class="card-content">
                             <h4 class="card-title">
-                                <a href="./cabalgata.html">Día de cabalgata</a>
+                                <a href="./cabalgata.html">Cabalgata</a>
                             </h4>
                             <p class="">
                                 Si te gustaría tener la experiencia de andar a caballo...
@@ -254,7 +239,7 @@
                         </a>
                         <div class="card-content">
                             <h4 class="card-title">
-                                <a href="./iniciacionpesca.html">Día de iniciación en la pesca</a>
+                                <a href="./iniciacionpesca.html">Iniciación en la pesca</a>
                             </h4>
                             <p class="">
                                 Ofrecemos una iniciación en la pesca con mosca...
@@ -293,14 +278,16 @@
             <div class="alrededores--all">
                 <div class="container grilla">
                     <div class="contenedor">
-                        <div class="titulo">Los Alrededores</div>
-                        <div class="parrafo">En Las Ardillas Lodge tenemos diversas actividades outdoors para ofrecer.</div>
+                        <div class="subtitulo">
+                            <div>Los Alrededores</div>
+                        </div>
+                        <div class="parrafo">Las Ardillas Lodge es el centro base para todas las actividades que tenemos para ofrecer a nuestros huéspedes, debido a su ubicación estratégica cercano a la famosa Carretera Austral , Puerto Ibáñez, Villa Cerro Castillo, Santuario de la naturaleza Capillas de Mármol, ¡Parque nacional Cerro Castillo, Coyhaique y muchos más!</div>
                         <div class="contenedor-ardillas">
                             <div class="linea"></div> 
                             <div class="ardillas">Las Ardillas Lodge</div>
                         </div>
                         <div class="vermas">
-                            <a href="./alrededores.html">Ver Alrededores</a>
+                            <a href="./alrededores.html">Leer Más...</a>
                         </div>
                     </div>
                 </div>
@@ -308,26 +295,17 @@
         </section> 
         <section id="contacto" class="main-social">
             <div class="container">
-                <h3 class="main-social--title">Contacto</h3>
-                <p>
-                    Te invitamos a contactarnos a tráves de Whatsapp o Instagram. 
-                </p>
-                <a href="" class="main-social-link">
-                    <div class="main-social-icon">
-                        <i class="bi bi-whatsapp" width="32" height="32"></i>
+                <div class="main-social--logo--texto">
+                    <div>
+                        <img class="main-social--logo" src="./assets/imgs/Blanco1.png" alt="">
                     </div>
-                    <p class="main-social--facebook">WHATSAPP</p>
-                    <p> Contáctanos a tráves de Whatsapp </p>
-                </a>
-                <a href="" class="main-social-link">
-                    <div class="main-social-icon">    
-                        <i class="bi bi-instagram"></i>
-                    </div>
-                    <p class="main-social--instagram">INSTAGRAM</p>
-                    <p> Contáctanos a tráves de Instagram </p>
-                </a>
+                    <div class="main-social--texto">
+                        <a href="https://api.whatsapp.com/send?phone=56962068502"><i class="bi bi-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/lasardillaslodge/?hl=es"><i class="bi bi-instagram"></i></a>
+                        <a href="www.ardillaslodge.cl">www.<strong>ardillaslodge</strong>.cl</a>
+                </div>
             </div>
-        </section>       
+        </section>      
     </main>
     <footer>
 

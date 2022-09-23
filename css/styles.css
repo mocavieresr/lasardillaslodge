@@ -30,13 +30,17 @@ html {
     font-size: 62.5%;
 }
 body {
-    font-family: 'Calibri', 'Raleway', sans-serif;
+    /*font-family: 'Calibri', 'Raleway', sans-serif;*/
+    font-family: 'League Spartan', sans-serif;
 }
 /* ==================== Navbar ==================== */
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
     
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
 }
 .navbar-logo {
     max-height: 65px;
@@ -120,12 +124,28 @@ body {
     height: 100%;
     color: white;
     font-size: 1.8rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
 }
-.grilla .titulo {
+.grilla .subtitulo div {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--green-yellow);
+    display: inline;
+    width: auto;
+    font-size: 3rem;
+    border-top: 3px solid var(--green-yellow);
+    border-bottom: 3px solid var(--green-yellow);
+    font-weight: bolder;
+    letter-spacing: 0.8rem;
+    text-shadow: 1px 0px 1px white;
+}
+/*.grilla .titulo {
     padding-top: 100px;
     font-size: 2.8rem;
     text-shadow: 1px 0px 1px black;
-}
+}*/
 .grilla .parrafo {
     padding-top: 15px;
     font-size: 2.8rem;
@@ -150,7 +170,7 @@ body {
 /* ==================== End Section Nuestros Servicios ==================== */
 /* ==================== Section Alrededores ==================== */
 .alrededores {
-    height: 500px;
+    height: 700px;
     background-image: url("../assets/imgs/4.Banner_Losalrededores/3.jpg");
     background-size: cover;
     background-position: center;
@@ -183,6 +203,7 @@ body {
 .lodge .subtitulo {
     text-align: center;
     padding-bottom: 20px;
+    letter-spacing: 0.8rem;
 }
 .lodge .subtitulo div {
     padding-left: 10px;
@@ -190,9 +211,10 @@ body {
     color: var(--green-yellow);
     display: inline;
     width: auto;
-    font-size: 2.8rem;
-    border-top: 2px solid var(--green-yellow);
-    border-bottom: 2px solid var(--green-yellow);
+    font-size: 3rem;
+    border-top: 3px solid var(--green-yellow);
+    border-bottom: 3px solid var(--green-yellow);
+    font-weight: bolder;
 }
 .lodge p {
     font-size: 1.8rem;
@@ -223,9 +245,11 @@ body {
     color: var(--green-yellow);
     display: inline;
     width: auto;
-    font-size: 2.8rem;
-    border-top: 2px solid var(--green-yellow);
-    border-bottom: 2px solid var(--green-yellow);
+    font-size: 3rem;
+    border-top: 3px solid var(--green-yellow);
+    border-bottom: 3px solid var(--green-yellow);
+    font-weight: bolder;
+    letter-spacing: 0.8rem;
 }
 .multiaventura p {
     font-size: 1.8rem;
@@ -245,10 +269,11 @@ body {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     transition: box-shadow .25s;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .card:hover {
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
 .img-card {
@@ -311,15 +336,17 @@ body {
 /* ==================== Social ==================== */
 .main-social {
     width: 100%;
-    height: 800px;
+    height: 400px;
     padding-top: 100px;
-    background-image: url("../assets/imgs/terrazalago.JPG");
+    /*background-image: url("../assets/imgs/terrazalago.JPG");*/
+    background-color: var(--dark-brown);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     align-items: center;
     padding-bottom: 50px;
 }
+/*
 .main-social p{
     width: 90%;
     margin: 0 auto;
@@ -369,6 +396,30 @@ body {
     color: var(--yellow);
     text-shadow: 2px 2px 5px black;
 }
+*/
+
+.main-social--logo--texto {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    align-items: center;
+    text-align: center;
+}
+.main-social--logo {
+    width: 300px;
+}
+.main-social--texto {
+    padding-top: 25px;
+}
+.main-social--texto i {
+    font-size: 3rem;
+    padding-left: 5px;
+}
+.main-social--texto a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+}
 /* ==================== End Social ==================== */
 /* ==================== Page Lodge ==================== */
 .page-lodge-container {
@@ -376,7 +427,7 @@ body {
     height: auto;
     padding-top: 80px;
 }
-.page-lodge-container--title {
+/*.page-lodge-container--title {
     width: 280px;
     margin: 0 auto;
     padding-top: 50px;
@@ -389,6 +440,23 @@ body {
     font-weight: 400;
     color: var(--dark-brown);
     font-family: 'MarketWeb';
+}*/
+.page-lodge-container--subtitle {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.page-lodge-container--subtitle div {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--green-yellow);
+    display: inline;
+    width: auto;
+    font-size: 3rem;
+    border-top: 3px solid var(--green-yellow);
+    border-bottom: 3px solid var(--green-yellow);
+    font-weight: bolder;
+    letter-spacing: 0.8rem;
 }
 .page-lodge-container--logo {
     width: 300px;
@@ -402,6 +470,9 @@ body {
     font-size: 2rem;
     text-align: justify;
     color: #888888;
+}
+.page-lodge-container--paragraph strong {
+    color: var(--green);
 }
 .page-lodge-container--images {
     display: none;
@@ -439,6 +510,24 @@ body {
 } 
 .page-trekking--foto {
     width: 100%;
+    display: grid;
+    grid-template: repeat(10, 10%) / repeat(10, 10%);
+}
+.page-trekking--foto .img1 {
+    grid-column: 3 / 9;
+    grid-row: 1 / 5;
+}
+.page-trekking--foto .img2 {
+    grid-column: 5 / 10;
+    grid-row: 4 / 8;
+}
+.page-trekking--foto .img3 {
+    grid-column: 1 / 4;
+    grid-row: 3 / 11;
+}
+.page-trekking--foto .img4 {
+    grid-column: 2 / 7;
+    grid-row: 6 / 11;
 }
 .page-trekking--foto img {
     padding-top: 15px;
@@ -471,3 +560,8 @@ body {
     font-size: 1.8rem;
 }
 /* ==================== End Page Trekking ==================== */
+#imagenIndex {
+    padding: 0;
+    margin:0;
+    width: 100%;
+}
